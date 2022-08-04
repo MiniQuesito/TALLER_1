@@ -29,11 +29,11 @@ let num1=prompt("Digite el primer numero");
 let res1=numero+paseInt(num1);
 console.log(`El resultado es ${res1}`);
 */
-
+/*
 let numero1=prompt("digite el primer numero");
 let numero2=prompt("Digite el segundo numero");
 let resultado=parseInt(numero1)+parseInt(numero2);
-
+*/
 //console.log(`La suma de los dos numeros es ${resultado}`);
 
 //Condicionales
@@ -77,3 +77,25 @@ else if(usuario!="Arnold" && contraseña!="qwerty"){
 //condicional switch 
 
 
+
+
+//ciclos 
+for (i=0;i < 20; i++){
+    console.log("Hola soy JULYAN ");
+}
+
+//do
+
+repertir = 3;
+
+while(repertir==3){
+     console.log("Hola soy Julian");
+     repertir=prompt("para continuar digita 1,2,Para salir")
+}
+
+
+do{
+    console.log("Hola soy July");
+}
+
+while(repertir == 3);
