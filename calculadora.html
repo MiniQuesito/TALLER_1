@@ -7,6 +7,26 @@
     <title>CALCULADORA</title>
 </head>
 <body>
-    
+    <form class="form-ejercicios">
+        <div class="group-form">
+            <label for="num1" class="form-label">Ingresa un número</label>
+            <input type="number" class="form-control" id="num1">
+        </div>
+        <div class="group-form">
+            <label for="num2" class="form-label">Ingresa otro número</label>
+            <input type="number" class="form-control" id="num2">
+        </div>
+        <div class="group-form">
+            <label>Seleccione una Operación</label>
+            <select class="form-select" id="operacion">
+                <option value="1">Suma</option>
+                <option value="2">Resta</option>
+                <option value="3">Multiplicación</option>
+                <option value="4">División</option>
+            </select>
+        </div>
+        <button type="submit" class="btn-azul" onclick="calcular()">Calcular</button>
+    </form>
+    <script src="js/calculadora.js"></script>
 </body>
 </html>
