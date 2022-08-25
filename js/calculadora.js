@@ -18,3 +18,7 @@ function calcular(){
         alert(`Opción inválida`)
     }
 }
+
+const btn = document.getElementById("button");
+
+btn.addEventListener('click',calcular())
