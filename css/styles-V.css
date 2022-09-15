@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://image.shutterstock.com/image-photo/old-brick-black-color-wall-260nw-1605128917.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Itim',cursive;
+    color: #5ccdfa;
+}
+
+/*Estilos de formulario*/
+
+.frm-container{
+    background-color: rgba(0,0,0, 0.7);
+    max-width: 32rem;
+    width: 100%;
+    color: #ffff;
+    padding: 2rem;
+    margin: 50px auto;
+}
+
+.frm-input{
+    width: 100%;
+    min-height: 2.5rem;
+    padding: 0 1rem;
+    box-shadow: 4px 4px 3px #000000;
+}
+
+.frm-input:focus{
+    outline: none;
+    border-color: #5ccdfa;
+    border-width: 5px;
+    border-style: solid;
+}
+.g-terminos{
+    display: flex;
+    justify-content: center;
+}
+
+.frm-checkbox{
+    margin: 0.5rem;
+    font-size: 100%;
+  
+}
+
+.btn-enviar{
+    background: linear-gradient(#11b5f6,#5ccdfa);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.btn-enviar:hover{
+    background: linear-gradient(#5ccdfa,#11b5f6)
+}
+
+.msn-error{
+    font-size: 11px;
+    color: #5ccdfa; 
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form-group{
+    margin: 0.5rem;
+}
+
+label{
+  font-weight: 500;
+}
+
+.form-group-input{
+    position: relative;
+}
+
+.frm-icono{
+    position: absolute;
+    right: 1rem;
+    bottom:2rem;
+    color:#5ccdfa;
+    z-index: 100;
+
+}
+
+.success .frm-icono{
+    color: green;
+}
+
+.error .frm-icono{
+    color: red;
+}
+
+.msn-error-visibility{
+  visibility: visible;
+  opacity: 1;
+}
